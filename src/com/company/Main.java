@@ -5,6 +5,7 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         int start = 2;
         int end = 12;
         int accumulator = 1;                   // (1)
