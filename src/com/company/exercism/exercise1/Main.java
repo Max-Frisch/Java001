@@ -6,6 +6,7 @@ public class Main {
 
         Lasagna lasagna = new Lasagna();
 
+        // calling the methods of the Lasagna class
         System.out.println("The total cooking time for the Lasagna is " + lasagna.expectedMinutesInOven() + "minutes.");
         System.out.println("The remaining cooking time is " + lasagna.remainingMinutesInOven(30) + " minutes.");
         int layers = 2;
