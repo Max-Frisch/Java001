@@ -2,17 +2,26 @@ package com.company;
 
 import java.util.Scanner;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        int start = 2;
-        int end = 12;
-        int accumulator = 1;                   // (1)
-        for (int i = start; i <= end; i++) {   // (2)
-            accumulator *= i;                  // (3)
-            System.out.println(accumulator);
-        }
+
+        System.out.println("Hello! My name is Aid.");
+        System.out.println("I was created in 2022.");
+        System.out.println("Please, remind me your name.");
+
+        String name = scanner.nextLine();
+
+        System.out.println("What a great name you have, " + name + "!");
+        System.out.println("Let me guess your age.");
+        System.out.println("Enter remainders of dividing your age by 3, 5 and 7.");
+
+        // reading all remainders
+
+        int remainder3 = scanner.nextInt();
+        int remainder5 = scanner.nextInt();
+        int remainder7 = scanner.nextInt();
+        int yourAge = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105;
+        System.out.println("Your age is " + yourAge + "; that's a good time to start programming!");
     }
 }
-
