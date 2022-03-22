@@ -1,4 +1,4 @@
-package com.company;
+package Java001.src.com.company.jetbrainsAcademy.simplechattybot;
 
 import java.util.Scanner;
 
